@@ -1,0 +1,61 @@
+@font-face {
+    font-family: MainFont;
+    src: url("/fonts/Track.ttf");
+}
+
+
+body {
+ 
+    font-family: MainFont;
+    
+}
+
+header {
+    
+
+    
+}
+
+nav > ul > li {
+ list-style-type: none;
+ display: inline-block;
+ width: 13%;
+ margin: 0 auto;
+ text-align: center;
+    
+}
+
+nav > ul > li > a {
+    
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 120%;
+    height: 50px;
+    line-height: 50px;
+    color: black;
+    
+    
+}
+
+nav > ul > li > a:hover {
+    
+    text-decoration: none;
+    color: gold;
+   transition: all .1s ease-in;
+    
+}
+
+
+
+.follow-on-instagram {
+    
+    background: rgba(255, 215, 0, 0.07);
+    
+}
+
+.navigation {
+    
+    display: block;;
+
+}
